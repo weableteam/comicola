@@ -5,12 +5,12 @@
 ?>
 <form class="search-form" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-12">
 			<div class="input-group">
-				<input type="text" name="s" class="form-control" placeholder="<?php esc_attr_e( 'Search', 'weable' ); ?>" />
 				<div class="input-group-append">
-					<button type="submit" class="btn btn-secondary" name="submit"><?php esc_html_e( 'Search', 'weable' ); ?></button>
+					<button type="submit" class="btn btn-secondary" name="submit"><i class="bi bi-search"></i></button>
 				</div><!-- /.input-group-append -->
+				<input type="text" name="s" class="form-control" placeholder="<?php esc_attr_e( 'Tìm kiếm dự án...', 'weable' ); ?>" />
 			</div><!-- /.input-group -->
 		</div><!-- /.col -->
 	</div><!-- /.row -->

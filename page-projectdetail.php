@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page Blog Detail (Full width)
+ * Template Name: Page Project Detail (Full width)
  * Description: Page template full width
  *
  */
