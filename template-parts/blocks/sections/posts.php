@@ -45,7 +45,7 @@ else :
             </div>
             
             <div class="row">
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">
@@ -55,7 +55,7 @@ else :
                         </div>
                         </div>
                 </div>
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">
@@ -65,7 +65,7 @@ else :
                         </div>
                         </div>
                 </div>
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">
@@ -75,7 +75,7 @@ else :
                         </div>
                         </div>
                 </div>
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">
@@ -85,7 +85,7 @@ else :
                         </div>
                         </div>
                 </div>
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">
@@ -95,7 +95,7 @@ else :
                         </div>
                         </div>
                 </div>
-                <div class="col-xl-4 mb-4">
+                <div class="col-xl-4 col-md-6 mb-4">
                     <div class="card w-posts-box-item " >
                         <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
                         <div class="card-body">

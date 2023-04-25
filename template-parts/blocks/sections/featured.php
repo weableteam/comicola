@@ -48,7 +48,7 @@ else :
                 <p class="">Sau khi ra mắt trên Comicola Crowdfunding, các dự án đã có tiến triển như thế nào?</p>
             </div>
             <div class="row">
-                <div class="col-xl-6 mb-4">
+                <div class="col-xl-6 col-md-6  mb-4">
                     <div class="w-featured-item d-flex  align-items-center">
                         <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
                         <div class="w-featured-content ml-4">
@@ -57,7 +57,7 @@ else :
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mb-4">
+                <div class="col-xl-6 col-md-6 mb-4">
                     <div class="w-featured-item d-flex  align-items-center">
                         <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
                         <div class="w-featured-content ml-4">
@@ -66,7 +66,7 @@ else :
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mb-4">
+                <div class="col-xl-6 col-md-6 mb-4">
                     <div class="w-featured-item d-flex  align-items-center">
                         <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
                         <div class="w-featured-content ml-4">
@@ -75,7 +75,7 @@ else :
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mb-4">
+                <div class="col-xl-6 col-md-6 mb-4">
                     <div class="w-featured-item d-flex  align-items-center">
                         <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
                         <div class="w-featured-content ml-4">
