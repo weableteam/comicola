@@ -32,31 +32,26 @@ appHeight();
     $(this).toggleClass("active");
     $(".m-menu").toggleClass("show");
     $(".overlay").toggleClass("show");
-    });
-    $(".overlay").click(function () {
+  });
+  $(".overlay").click(function () {
     $("#hamburger-menu").toggleClass("active");
     $(".m-menu").toggleClass("show");
     $(".overlay").toggleClass("show");
-    });
-    $(".m-menu button").click(function () {
-      $("#hamburger-menu").toggleClass("active");
-      $(".m-menu").toggleClass("show");
-      $(".overlay").toggleClass("show");
-      });
-  
-
-  $(window).on("load",function(){
-    console.log($('.w-banner .slide'))
-
-    $('.w-banner .nav .wrap').each((index,elem)=>{
-      $(elem).click(()=>{
-          console.log($('.w-banner .slide'))
-          $('.w-banner .slide').slick('slickGoTo', index);
-      })
-    })
+  });
+  $(".m-menu button").click(function () {
+    $("#hamburger-menu").toggleClass("active");
+    $(".m-menu").toggleClass("show");
+    $(".overlay").toggleClass("show");
   });
 
+  $(window).on("load", function () {
+    console.log($(".w-banner .slide"));
 
-
-}( jQuery ) );
-
+    $(".w-banner .nav .wrap").each((index, elem) => {
+      $(elem).click(() => {
+        console.log($(".w-banner .slide"));
+        $(".w-banner .slide").slick("slickGoTo", index);
+      });
+    });
+  });
+})(jQuery);
