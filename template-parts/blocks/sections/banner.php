@@ -53,8 +53,9 @@ else :
             <div class="container">
                 <div class="w-banner__marquee">
                     <span class="w-banner__icon"><i class="bi bi-broadcast-pin"></i></span>
-                    <span class="w-banner__run">
-                        Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng đồng
+                    <span class="w-banner__run" data-period="1000"
+                        data-type='[ "Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng", "Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng" ]'>
+                        <span class="wrap"> </span>
                     </span>
                 </div>
             </div>

@@ -607,36 +607,10 @@ body {
   display: flex;
 }
 
-.w-banner__marquee .w-banner__run {
+.w-banner__run {
   color: #fff;
-  overflow: hidden;
-  border-right: 0.15em solid #fff;
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-  display: block;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 45%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #fff;
-  }
-}
 @media (max-width: 1023px) {
   .w-banner__image {
     width: 100%;
