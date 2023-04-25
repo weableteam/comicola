@@ -542,3 +542,24 @@ html,body {
 	color: var(--primary)!important;
 }
 
+.w-posts{
+	background-color: #f5f5f5;
+	padding: 5rem 0;
+}
+.w-post-h3{
+	font-size: 2rem;
+}
+.w-posts-time{
+	color: #C9366F;
+}
+.w-posts-box-item{
+	border: none !important;
+}
+
+.w-featured-h3{
+	color: #C9366F;
+	font-size: 2rem;
+}
+.w-featured{
+	padding: 4.5rem 0;
+}

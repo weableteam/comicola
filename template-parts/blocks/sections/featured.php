@@ -41,7 +41,52 @@ else :
 
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-  featured
+    <div class="container">
+        <div class="w-featured-box">
+            <div class="w-featured-title text-center d-block mb-5 ">
+                <h3 class="w-featured-h3 ">Làm sao để có được dự án crowdfunding thành công?</h3>
+                <p class="">Sau khi ra mắt trên Comicola Crowdfunding, các dự án đã có tiến triển như thế nào?</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 mb-4">
+                    <div class="w-featured-item d-flex  align-items-center">
+                        <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
+                        <div class="w-featured-content ml-4">
+                            <h4>Hợp tác hỗ trợ</h4>
+                            <p class="mb-0">Hãy xem những người ủng hộ như đối tác tiềm năng của bạn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-4">
+                    <div class="w-featured-item d-flex  align-items-center">
+                        <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
+                        <div class="w-featured-content ml-4">
+                            <h4>Hợp tác hỗ trợ</h4>
+                            <p class="mb-0">Hãy xem những người ủng hộ như đối tác tiềm năng của bạn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-4">
+                    <div class="w-featured-item d-flex  align-items-center">
+                        <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
+                        <div class="w-featured-content ml-4">
+                            <h4>Hợp tác hỗ trợ</h4>
+                            <p class="mb-0">Hãy xem những người ủng hộ như đối tác tiềm năng của bạn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-4">
+                    <div class="w-featured-item d-flex  align-items-center">
+                        <img src="<?=get_stylesheet_directory_uri() . '/assets/images/item_group.png' ?>" alt="">
+                        <div class="w-featured-content ml-4">
+                            <h4>Hợp tác hỗ trợ</h4>
+                            <p class="mb-0">Hãy xem những người ủng hộ như đối tác tiềm năng của bạn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <?php endif;
 add_action( 'wp_footer', 'featuredScript', 99, 1 );
