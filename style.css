@@ -563,3 +563,20 @@ html,body {
 .w-featured{
 	padding: 4.5rem 0;
 }
+.w-posts-box-item{
+	cursor: pointer;
+}
+.w-post-box-item-image{
+	overflow: hidden;
+	transition: 0.5s all;
+}
+.w-posts-box-item:hover .w-post-box-item-image img{
+	transform: scale(1.2);
+	
+}
+.imgae_item_post{
+	transition: 0.5s all;
+}
+.w-posts-box-item:hover .card-body p{
+	color: #C9366F !important;
+}

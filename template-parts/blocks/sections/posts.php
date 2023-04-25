@@ -46,65 +46,73 @@ else :
             
             <div class="row">
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
                 <div class="col-xl-4 col-md-6 mb-4">
-                    <div class="card w-posts-box-item " >
-                        <img class="card-img-top" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                    <a class="card w-posts-box-item " >
+                       <div class="w-post-box-item-image">
+                            <img class="card-img-top imgae_item_post" src="<?=get_stylesheet_directory_uri() . '/assets/images/image_item.png' ?>" alt="Card image cap">
+                       </div>
                         <div class="card-body">
-                        
-                            <p class="card-text font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
+                            <p class="card-text text-dark font-weight-bold mb-2">Cuốn sách Dệt Nên Triều Đại được trưng bày tại sảnh chính Bảo tàng Quốc gia Nghệ thuật Châu Á Hoa Kỳ, thủ đô Washington DC</p>
                             <span class="w-posts-time">Thứ 2, ngày 13 tháng 06 năm 2023</span>
                         </div>
-                        </div>
+                    </a>
                 </div>
+                
+                
             </div>
         </div>
   </div>
