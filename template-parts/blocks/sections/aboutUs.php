@@ -73,8 +73,9 @@ if (!function_exists('ap3script')) {
     { ?>
 <script async>
 (function($) {
+    console.log(123)
     $(document).ready(function() {
-        $("w-au__slider").slick({
+        $(".w-au__slider").slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
