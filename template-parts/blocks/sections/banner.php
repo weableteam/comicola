@@ -51,11 +51,12 @@ else :
         </div>
         <div class="w-banner__text">
             <div class="container">
-                <marquee behavior="scroll" direction="left" scrollamount="10" width="100%" class="w-banner__marquee">
+                <div class="w-banner__marquee">
                     <span class="w-banner__icon"><i class="bi bi-broadcast-pin"></i></span>
-                    <span class="w-banner__run">Nền tảng gây quỹ cộng đồngcho các dự án văn hóa sáng tạo cho cộng
-                        đồng...</span>
-                </marquee>
+                    <span class="w-banner__run">
+                        Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng đồng
+                    </span>
+                </div>
             </div>
         </div>
     </div>

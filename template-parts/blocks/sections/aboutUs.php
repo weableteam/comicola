@@ -45,7 +45,7 @@ else :
         </div>
         <div class="w-au__slider">
             <div class="w-au__item">
-                <span><i class="bi bi-chat-left-quote"></i></span>
+                <span class="w-au__item-icon"><i class="bi bi-chat-left-quote"></i></span>
                 <p class="w-au__desc">"Điều thú vị là khi thực hiện gây quỹ cộng đồng, bên cạnh các cuốn sách về giới
                     trẻ, tình yêu được
                     độc giả đón nhận, ban điều hành của Comicola đã nhận ra người Việt trẻ không hề quay lưng với các đề
@@ -54,7 +54,7 @@ else :
                 <img src="<?= get_stylesheet_directory_uri() . '/assets/images/image 2.png' ?>" alt="">
             </div>
             <div class="w-au__item">
-                <span><i class="bi bi-chat-left-quote"></i></span>
+                <span class="w-au__item-icon"><i class="bi bi-chat-left-quote"></i></span>
                 <p class="w-au__desc">"Điều thú vị là khi thực hiện gây quỹ cộng đồng, bên cạnh các cuốn sách về giới
                     trẻ, tình yêu được
                     độc giả đón nhận, ban điều hành của Comicola đã nhận ra người Việt trẻ không hề quay lưng với các đề
