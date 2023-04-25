@@ -37,7 +37,7 @@ else :
 
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-   <div class="projects"> 
+   <div class="projects" style="background: F5F5F5;"> 
         <div class="container">
             <div class="pj-top">
                 <div class="name">
