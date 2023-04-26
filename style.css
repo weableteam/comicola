@@ -489,7 +489,8 @@ nav.navbar {
 }
 .m-menu {
   width: 100%;
-  height: calc(100vh - 77px);
+  padding: .5rem 1rem;
+  height: 100vh;
   position: fixed;
   left: 0;
   right: 0;
@@ -499,7 +500,7 @@ nav.navbar {
   transition: transform 0.35s ease;
 }
 .m-menu.show {
-  transform: translate3d(0, calc(100% + 77px * 2), 0);
+  transform: translateY(100%);
 }
 
 #menu-mobile-menu .nav-link {
@@ -888,6 +889,8 @@ body {
 
 .projects .pj-content {
   margin: 2rem 0;
+
+  margin-bottom: 0;
 }
 
 .projects .pj-content a {
@@ -2053,4 +2056,14 @@ body {
 	outline: unset !important;
 	box-shadow: unset !important;
 
+}
+
+.m-menu .top button{
+  border: none;
+  background-color: unset;
+  font-size: 3rem;
+  color: #C9366F;
+}
+.m-menu .navbar-nav{
+  gap: 1rem;
 }

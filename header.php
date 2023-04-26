@@ -26,8 +26,8 @@
         <header id="header">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-3">
-                    <a href="<?php echo esc_url( home_url() ); ?>" class="logo px-5 d-block">
+                <div class="col-md-3 col-6">
+                    <a href="<?php echo esc_url( home_url() ); ?>" class="logo d-block">
                         <?php
                             $header_logo = get_theme_mod( 'header_logo' ); // Get custom meta-value.
 
@@ -41,18 +41,17 @@
                         ?>
                     </a>
                 </div>
-                <div class="col-12 d-lg-none d-block">
-                    <div class="mobile-right d-flex d-lg-none justify-content-center align-items-center">
+                <div class="col-6 d-lg-none d-block">
+                    <div class="mobile-right d-flex d-lg-none justify-content-end align-items-center">
 				
                         <div class="hamburger-menu d-block d-lg-none mr-2" id="hamburger-menu">
                             <div class="menu-bar1"></div>
                             <div class="menu-bar2"></div>
                             <div class="menu-bar3"></div>
                         </div>
-                        Menu
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-lg-block d-none">
                     <?php
                         // Loading WordPress Custom Menu (theme_location).
                         wp_nav_menu(
@@ -72,10 +71,25 @@
                 </div>
             </div>
             <div class="m-menu d-lg-none d-block">
-                <div class="btn">
-                    <button>
-                        <i class="bi bi-x"></i>
-                    </button>
+                <div class="top d-flex justify-content-between align-items-center">
+                    <a href="<?php echo esc_url( home_url() ); ?>" class="logo d-block">
+                        <?php
+                            $header_logo = get_theme_mod( 'header_logo' ); // Get custom meta-value.
+
+                            if ( ! empty( $header_logo ) ) :
+                        ?>
+                            <img src="<?php echo esc_url( $header_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="img-fluid">
+                            <?php
+                            else :
+                                echo esc_attr( get_bloginfo( 'name', 'display' ) );
+                            endif;
+                        ?>
+                    </a>
+                    <div class="btn">
+                        <button>
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </div>
                 </div>
                 <?php 
 				wp_nav_menu(
