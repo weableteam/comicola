@@ -839,7 +839,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 29px;
+  gap: 0 20px;
 }
 
 .projects .pj-content .view-alls a {
