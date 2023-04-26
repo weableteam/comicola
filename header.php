@@ -24,8 +24,8 @@
     <div id="wrapper">
        
         <header id="header">
-        <div class="container-fluid">
-            <div class="row align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
                 <div class="col-md-3">
                     <a href="<?php echo esc_url( home_url() ); ?>" class="logo px-5 d-block">
                         <?php
@@ -52,56 +52,14 @@
                         Menu
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <!-- <ul class="nav">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">
-                                <span>Home</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>About</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Services</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Timeline</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Media</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Faculty</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Contact</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <span>Shortcodes</span>
-                            </a>
-                        </li>
-                    </ul> -->
+                <div class="col-md-4">
                     <?php
                         // Loading WordPress Custom Menu (theme_location).
                         wp_nav_menu(
                             array(
                                 'theme_location' => 'main-menu',
                                 'container'      => '',
-                                'menu_class'     => 'navbar-nav nav w-100 justify-content-start ',
+                                'menu_class'     => 'navbar-nav nav flex-row w-100 justify-content-start ',
                                 'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
                                 'walker'         => new WP_Bootstrap_Navwalker(),
                             )
@@ -109,14 +67,8 @@
 
                     ?>
                 </div>
-                <div class="col-md-2 pr-3">
-                    <div class="phone">
-                        <i class="bi bi-telephone-fill"></i>
-                        Available @
-                        <?php if($hotline = get_field('hotline','option')) : ?>
-                            <strong><?= $hotline ?></strong>
-                         <?php endif; ?>
-                    </div>
+                <div class="col-md-4 pr-3">
+                    <?php echo get_search_form() ?>
                 </div>
             </div>
             <div class="m-menu d-lg-none d-block">
