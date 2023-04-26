@@ -38,7 +38,7 @@
 									</div>
 								</div>
 
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-sm-6">
 									<div class="content-foo">
 										<h6>thông tin chủ quản</h6>
 										<ul> 
@@ -55,7 +55,7 @@
 									</div>
 								</div>
 
-								<div class="col-lg-4">
+								<div class="col-lg-4 col-sm-6">
 									<div class="content-foo">
 										<h6>thông tin hữu ích</h6>
 										<ul> 
