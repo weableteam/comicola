@@ -833,7 +833,7 @@ body {
   border-radius: 10px;
 }
 
-.projects .pj-content .view-all {
+.projects .pj-content .view-alls {
   text-align: center;
   margin: 2rem 0;
   display: flex;
@@ -842,7 +842,7 @@ body {
   gap: 0 29px;
 }
 
-.projects .pj-content .view-all a {
+.projects .pj-content .view-alls a {
   display: block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -852,7 +852,7 @@ body {
   font-weight: 600;
 }
 
-.projects .pj-content .view-all a:hover {
+.projects .pj-content .view-alls a:hover {
   transform: translate(0);
   background: #c9366f;
   color: #fff;
