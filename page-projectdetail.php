@@ -85,12 +85,10 @@ get_header();
 									<span>567 lượt yêu thích</span>
 								</div>
 							</div>
-							<form>
-								<div class="form-group">
-									<input type="range" class="form-control-range" id="formControlRange">
-									<label for="formControlRange">Số tiền ủng hộ: 1.567.000.000đ / 3.000.000.000đ</label>
-								</div>
-							</form>
+							<div class="rangeDonate">
+								<div class="bg-range"><span></span></div>
+								<label for="Range">Số tiền ủng hộ: 1.567.000.000đ / 3.000.000.000đ</label>
+							</div>
 							<a href="#" class="link-donate d-block">ỦNG HỘ DỰ ÁN </a>
 							<div class="countdownTime d-flex align-items-center justify-content-center">
 								<div class="icon" style="margin-right: 0.3rem;"><i class="bi bi-hourglass-top"></i></div>
