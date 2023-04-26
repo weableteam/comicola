@@ -662,7 +662,7 @@ body {
 /* end banner */
 /* about us */
 .w-au {
-  padding: 4.75rem 0;
+  padding-bottom: 4.75rem;
 }
 .w-au__heading {
   font-size: 2rem;
@@ -725,7 +725,10 @@ body {
 .projects{
 	background: #F5F5F5;
 }
-
+.w-pj{
+  padding: 4.5rem 0;
+  background: #F5F5F5;
+}
 .projects .pj-top{
 	margin-bottom: 4rem;
 }
@@ -805,7 +808,6 @@ body {
 }
 
 .projects .pj-content{
-	margin: 2rem 0;
 }
 
 .projects .pj-content a{
@@ -911,7 +913,6 @@ body {
 }
 
 .projects .pj-content {
-  margin: 2rem 0;
 }
 
 .projects .pj-content a {
@@ -1001,7 +1002,7 @@ body {
 
 .projects .pj-content .view-all{
 	text-align: center;
-	margin: 2rem 0;
+	margin-top: 2rem;
 }
 
 .projects .pj-content .view-all a{

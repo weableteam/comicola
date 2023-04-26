@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page Feel (Full width)
+ * Template Name: Page Payment (Full width)
  * Description: Page template full width
  *
  */
