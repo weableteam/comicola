@@ -636,6 +636,7 @@ body {
 /* about us */
 .w-au {
   padding: 4.75rem 0;
+  background-color: white;
 }
 .w-au__heading {
   font-size: 2rem;
@@ -676,7 +677,7 @@ body {
 }
 .w-featured{
 	padding: 4.5rem 0;
-}
+  background-color: white;}
 .w-posts-box-item{
 	cursor: pointer;
 }
@@ -2001,3 +2002,41 @@ body {
   }
 }
 /* end payment */
+
+
+
+.navbar-nav .nav-link{
+	text-transform: uppercase;
+	color: black;
+	font-weight: 500;
+}
+.navbar-nav {
+	gap: 3rem;
+}
+
+.navbar-nav li.active .nav-link,.navbar-nav .nav-link:hover{
+	color: #C9366F;
+}
+#header {
+	padding: 1rem 0;
+}
+.search-form{
+	background-color: #F5F5F5;
+	padding: 0.15rem .5rem ;
+}
+.search-form button{
+	background-color: transparent !important;
+	border: unset;
+	outline: unset;
+	box-shadow: unset;
+	color: #C9366F !important;
+
+}
+.search-form input{
+	padding-left: 0 !important;
+	background-color: transparent !important;
+	border: unset;
+	outline: unset !important;
+	box-shadow: unset !important;
+
+}
