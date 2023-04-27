@@ -2105,3 +2105,104 @@ body {
   }
 }
 /* end step-3 */
+
+/* PAGE-CONTACT */
+.page-contact{
+  padding: 1rem 0;
+}
+
+.page-contact h3{
+  color: #C9366F;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.page-contact .main-content{
+  padding: 1rem 0;
+}
+
+.page-contact .main-content .input-contact ul {
+  padding-left: 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.page-contact .main-content .input-contact ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.page-contact .main-content .input-contact ul li span{
+  padding: 3px 7px;
+  border: 1px solid #C9366F;
+  border-radius: 50%;
+}
+
+.page-contact .main-content .input-contact ul li span img{
+  width: 1rem;
+}
+
+.page-contact .main-content .input-contact ul li a{
+  display: block;
+  margin-left: 1rem;
+}
+
+.page-contact .main-content .input-contact ul li a p{
+  margin-bottom: 0;
+  color: #838383;
+}
+
+.page-contact .main-content .input-contact .contact-us{
+  margin: 2rem 0;
+}
+
+.page-contact .main-content .input-contact .contact-us h5{
+  margin: 2rem 0;
+  color: #000000;
+}
+
+.page-contact .main-content .input-contact .contact-us .list-input input,
+.page-contact .main-content .input-contact .contact-us .list-input textarea{
+  width: 100%;
+  outline: none;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.page-contact .main-content .input-contact .contact-us .list-input .send{
+  margin-top: 1rem;
+}
+
+.page-contact .main-content .input-contact .contact-us .list-input .send a{
+  display: block;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #8D072F;
+  color: #000000;
+  font-weight: 600;
+  width: max-content;
+  transition: all .3s ease-in-out;
+}
+.page-contact .main-content .input-contact .contact-us .list-input .send a:hover{
+  background: #C9366F;
+  color: #fff;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.page-contact .map-contact iframe{
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .page-contact .map-contact{
+    margin-bottom: 2rem;
+  }
+
+  .page-contact h3{
+    margin: 1rem 0;
+  }
+}
