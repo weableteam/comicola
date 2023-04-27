@@ -166,7 +166,7 @@ else :
                 </div>
 
                 <div class="view-all">
-                    <a href="">xem toàn bộ </a>
+                    <a href="/page-projects/">xem toàn bộ </a>
                 </div>
             </div>
         </div>
