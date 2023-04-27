@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page Shop (Full width)
+ * Template Name: Page Contact (Full width)
  * Description: Page template full width
  *
  */
