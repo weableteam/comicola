@@ -637,6 +637,7 @@ body {
 /* about us */
 .w-au {
   padding: 4.75rem 0;
+  padding-top: 0;
   background-color: white;
 }
 .w-au__heading {
