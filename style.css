@@ -1029,13 +1029,30 @@ body {
 }
 .w-step-end > img {
   width: 100%;
+  object-fit: cover;
+}
+.w-step__qr-title {
+  padding: 14px 47px;
+  background: #cfe2ff;
+  border: 1px solid #b6d4fe;
+  color: #084298;
+}
+.w-step__img {
+  width: 820px;
   object-fit: contain;
+}
+@media (max-width: 1023px) {
+  .w-step__img,
+  .payment-img {
+    width: 100%;
+  }
 }
 /* Mobile */
 @media (max-width: 739px) {
   .w-step > h1 {
     font-size: 1.5rem;
   }
+
   .w-step__telephone > input {
     min-width: 19rem;
   }

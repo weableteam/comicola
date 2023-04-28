@@ -102,11 +102,33 @@ get_header();
             </div>
             <div class="col-8 mx-auto mb-5 w-payment-content">
                 <p class="mb-3">Chọn phương thức thanh toán</p>
+                <img class="payment-img" src="<?= get_stylesheet_directory_uri() . '/assets/images/image 5.png' ?>"
+                    alt="">
             </div>
         </div>
     </div>
     <!-- end step-3 -->
     <!-- step-4 -->
+    <section class="w-step">
+        <div class="w-step__number">
+            <span class="is-active">1</span>
+            <span><img src="<?= get_stylesheet_directory_uri() . '/assets/images/Line 5.png' ?>" alt=""></span>
+            <span>2</span>
+            <span><img src="<?= get_stylesheet_directory_uri() . '/assets/images/Line 5.png' ?>" alt=""></span>
+            <span>3</span>
+        </div>
+        <h1>ỦNG HỘ “DỰ ÁN HOẠT HÌNH CON THỎ”</h1>
+        <!--  -->
+        <p class="w-step__qr-title">Xin chào <span style="font-weight: 700;">084*****9999</span>, mời bạn quyét
+            mã QR
+            bên
+            dưới để ủng hộ cho dự án
+            này, ID của
+            bạn là 316.</p>
+        <img class="w-step__img" src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle 91.png' ?>" alt="">
+        <!--  -->
+        <a href="#" class="w-step__btn-verify">TÔI ĐÃ THANH TOÁN</a>
+    </section>
     <!-- end step-4 -->
     <!-- step-end -->
     <section class="w-step w-step-pb  mt-2">
