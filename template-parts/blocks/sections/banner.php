@@ -34,14 +34,28 @@ if (isset($block['data']['preview'])) :
 else :
 
 
-    // Load values and assign defaults.
+// Load values and assign defaults.
+$type = get_field('type');
+$content = get_field('content');
+
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
 
     <div class="w-banner__container">
-        <video class="w-banner__video" autoplay="" muted="" loop="">
-            <source src="<?= get_stylesheet_directory_uri() . '/assets/images/hoathinhtho2_resize.mp4' ?>">
-        </video>
+        <?php if($type == 'video') : ?>
+            <?php if($video = get_field('video')) : ?>
+            <video class="w-banner__video" autoplay="" muted="" loop="">
+                <source src="<?= $video ?>">
+            </video>
+            <?php endif; ?>
+        <?php endif; ?>
+        <?php if($type == 'image') : ?>
+            <?php if($image = get_field('image')) : ?>
+            <div class="w-banner__video">
+                <img src="<?= esc_url($image['url']) ?>" alt="<?= esc_attr($image['alt']) ?>">
+            </div>
+            <?php endif; ?>
+        <?php endif; ?>
         <div class="w-banner__link">
             <a href="#">
                 <img class="w-banner__image"
@@ -49,17 +63,19 @@ else :
                     alt="Hoạt hình con thỏ kêu gọi vốn cộng đồng">
             </a>
         </div>
+        <?php if($content) : ?>
         <div class="w-banner__text">
             <div class="container">
                 <div class="w-banner__marquee">
                     <span class="w-banner__icon"><i class="bi bi-broadcast-pin"></i></span>
                     <span class="w-banner__run" data-period="1000"
-                        data-type='[ "Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng", "Nền tảng gây quỹ cộng đồng cho các dự án văn hóa sáng tạo cho cộng" ]'>
+                        data-type='[ "<?= $content ?>", "<?= $content ?>" ]'>
                         <span class="wrap"> </span>
                     </span>
                 </div>
             </div>
         </div>
+        <?php endif; ?>
     </div>
 </section>
 <?php endif;
